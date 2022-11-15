@@ -1,0 +1,63 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.formContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.inputField {
+  width: 50%;
+  height: 35px;
+  padding: 10px;
+}
+input:focus {
+  outline-color: rgb(21, 187, 238);
+}
+.add-btn {
+  width: 5%;
+  height: 30px;
+  background-color: #5db85b;
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.horizontalLine {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.user-details {
+  height: 35px;
+  border: 1px solid rgba(128, 128, 128, 0.338);
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.remove {
+  background-color: red;
+  color: white;
+  width: 8%;
+  border-radius: 5px;
+  font-size: 13px;
+  border: none;
+}
